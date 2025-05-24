@@ -14,7 +14,7 @@ cd CRUD_Usuarios_NodeJs
 
 ```bash
 npm install
-
+node index.js
 
 ## 🛣️ Endpoints de la API
 
