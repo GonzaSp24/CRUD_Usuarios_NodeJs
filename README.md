@@ -6,7 +6,7 @@
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/Pabloamedey/CRUD-Usuarios-NodeJs
+git git@github.com:GonzaSp24/CRUD_Usuarios_NodeJs.git
 cd CRUD_Usuarios_NodeJs
 ```
 
