@@ -4,8 +4,8 @@ const Home = () => {
   return (
     <div className="home-page">
       <div className="home-overlay">
-        <h1>✨ Bienvenido a Mundo Unicornios 🦄</h1>
-        <p>Descubrí y gestioná criaturas mágicas, productos encantados y más</p>
+        <h1>✨ Tus Unicornios</h1>
+        <p>Descubrí tus criaturas mágicas.</p>
 
         <div className="home-buttons">
           <Link to="/unicornios">

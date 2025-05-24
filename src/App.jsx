@@ -1,8 +1,9 @@
-import { Routes, Route, NavLink, useLocation } from "react-router-dom";
+import { NavLink, Route, Routes, useLocation } from "react-router-dom";
+
+import Home from "./Home"; // Tu página de inicio
+import ProductsRoutes from "./products";
 import { UnicornProvider } from "./context/UnicornContext";
 import UnicornRoutes from "./unicorns";
-import ProductsRoutes from "./products";
-import Home from "./Home"; // Tu página de inicio
 
 function App() {
   const location = useLocation();
@@ -46,9 +47,7 @@ function App() {
         <Route path="/productos/*" element={<ProductsRoutes />} />
       </Routes>
 
-      <footer>
-        Hecho por Pablo Aldo Amedey Dilena — 2025
-      </footer>
+      
     </div>
   );
 }
